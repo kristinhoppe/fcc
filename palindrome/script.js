@@ -19,9 +19,9 @@ input.addEventListener("keydown", (e) => {
   }
 });
 
-input.addEventListener("focus", () => {
-  document.getElementById("result").classList.add("hidden");
-});
+// input.addEventListener("focus", () => {
+//   document.getElementById("result").classList.add("hidden");
+// });
 
 function getInput(input) {
   originalString = input;
@@ -30,6 +30,7 @@ function getInput(input) {
   const palindromeCheck = checkForPalindrome(cleanString);
 
   returnResults(palindromeCheck);
+  // document.activeElement.blur();
 }
 
 //regex out non-alphanumeric characters
