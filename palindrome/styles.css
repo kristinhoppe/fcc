@@ -53,7 +53,7 @@ body {
   padding: 20px;
   margin: 10px 0;
   background-color: white;
-  box-shadow: 0 6px 6px #002ead;
+  box-shadow: 0 6px 6px #00471b;
 }
 
 label {
@@ -97,7 +97,6 @@ label {
 
 .results-div {
   overflow-y: auto;
-  word-wrap: break-word;
   padding: 20px;
   min-height: 50px;
   color: #5a01a7;
@@ -110,6 +109,8 @@ label {
   font-size: 1.3rem;
   min-height: 50px;
   display: hidden;
+  border-bottom: 2px solid #5a01a7;
+  box-shadow: 0 3px 3px #00471b;
 }
 
 .hidden {
