@@ -1,0 +1,43 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
+    />
+    <title>Telephone Number Validator</title>
+  </head>
+  <body>
+    <main>
+      <img
+        class="freecodecamp-logo"
+        src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg"
+        alt="freeCodeCamp Logo"
+      />
+      <h1>Telephone Number Validator</h1>
+      <form id="form" class="form">
+        <fieldset>
+          <label for="number">Enter a phone number:</label><br />
+          <input type="text" id="user-input" onfocus="clearForm()" required />
+          <button type="button" id="check-btn">Validate</button>
+          <button
+            type="button"
+            id="clear-btn"
+            value="Reset"
+            onclick="clearForm()"
+          >
+            Clear
+          </button>
+        </fieldset>
+      </form>
+      <div id="results-div" class="output hidden"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
